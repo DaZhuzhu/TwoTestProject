@@ -1,0 +1,22 @@
+{
+  "name": "WJLTestTwoSDK",
+  "version": "0.1.0",
+  "summary": "A short description of WJLTestTwoSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MrW/WJLTestTwoSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrW": "mrwangjianli@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MrW/WJLTestTwoSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WJLTestTwoSDK/Classes/**/*"
+}

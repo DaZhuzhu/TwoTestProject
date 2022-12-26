@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1D506A3DEF898A4D6B23D9A9 /* Pods_WJLTestTwoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJLTestTwoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DBE8520B0B7BE0B3C2939F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DBE8520B0B7BE0B3C2939F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WJLTestTwoSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJLTestTwoSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D47A6664A9EA2BE50C0B4B3 /* Pods-WJLTestTwoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJLTestTwoSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-WJLTestTwoSDK_Example/Pods-WJLTestTwoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8D96FB7697115DB4CEEB6213 /* Pods-WJLTestTwoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJLTestTwoSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-WJLTestTwoSDK_Example/Pods-WJLTestTwoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A4F933EF8637AEF6BCD5BA83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A7D6AFE55125BE47D5F3403D /* WJLTestTwoSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WJLTestTwoSDK.podspec; path = ../WJLTestTwoSDK.podspec; sourceTree = "<group>"; };
+		A4F933EF8637AEF6BCD5BA83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7D6AFE55125BE47D5F3403D /* WJLTestTwoSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WJLTestTwoSDK.podspec; path = ../WJLTestTwoSDK.podspec; sourceTree = "<group>"; };
 		AD60D80022EB1EF59C861141 /* Pods-WJLTestTwoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJLTestTwoSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-WJLTestTwoSDK_Tests/Pods-WJLTestTwoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C26D4EC4CDC1F6FBC952FDE3 /* Pods_WJLTestTwoSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJLTestTwoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68E8C2B3BB2A76771D832D3 /* Pods-WJLTestTwoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJLTestTwoSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WJLTestTwoSDK_Tests/Pods-WJLTestTwoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				D68E8C2B3BB2A76771D832D3 /* Pods-WJLTestTwoSDK_Tests.debug.xcconfig */,
 				AD60D80022EB1EF59C861141 /* Pods-WJLTestTwoSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MrW;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZT38DY35DB;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 8D47A6664A9EA2BE50C0B4B3 /* Pods-WJLTestTwoSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT38DY35DB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WJLTestTwoSDK/WJLTestTwoSDK-Prefix.pch";
 				INFOPLIST_FILE = "WJLTestTwoSDK/WJLTestTwoSDK-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 8D96FB7697115DB4CEEB6213 /* Pods-WJLTestTwoSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT38DY35DB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WJLTestTwoSDK/WJLTestTwoSDK-Prefix.pch";
 				INFOPLIST_FILE = "WJLTestTwoSDK/WJLTestTwoSDK-Info.plist";

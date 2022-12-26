@@ -1,0 +1,6 @@
+framework module WJLTestTwoSDK {
+  umbrella header "WJLTestTwoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
