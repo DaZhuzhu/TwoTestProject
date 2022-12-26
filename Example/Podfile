@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WJLTestTwoSDK_Example' do
+  pod 'WJLTestTwoSDK', :path => '../'
+
+  target 'WJLTestTwoSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
