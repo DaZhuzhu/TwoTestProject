@@ -10,7 +10,7 @@
 @implementation WJLPubTestFirstOBJ
 
 + (void)FirstTest {
-    NSLog(@"FirstTest");
+    NSLog(@"测试打印");
 }
 
 @end
