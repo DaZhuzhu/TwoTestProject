@@ -10,10 +10,10 @@
 		142FE30C6BAC10805BDC05665244ECB1 /* WJLTestTwoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C638DF0F3C94E2AA6EA892FB93DDFE8 /* WJLTestTwoSDK-dummy.m */; };
 		2F1784612F9C6BF2823D4E08A244A173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3685A449BC3E1EFF10711FAA71DB7A03 /* WJLTestTwoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4FD3513F99F740D455C3C489F191C6 /* WJLTestTwoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59399A44E699485B6DBDFFC304F38586 /* WJLPubTestFirstOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E2466B51C73A49BEC49B1DEBCED46 /* WJLPubTestFirstOBJ.m */; };
+		3F7B0999295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7B0997295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.h */; };
+		3F7B099A295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B0998295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.m */; };
 		62EDDFA014A559D3ABAB1E5967F9353C /* Pods-WJLTestTwoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7518DDAE8E0016BA7BBCC51D829EA2 /* Pods-WJLTestTwoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79AA02A3B585C545D2C25AB356258DE3 /* Pods-WJLTestTwoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB66C459D24D2DE5774AA013198645DC /* Pods-WJLTestTwoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B0C32040486BCE5A349011DAF64756D /* WJLPubTestFirstOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B73673452EBAB319EA8292B4F50137C /* WJLPubTestFirstOBJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EF581243DE89598A1A8A072D2309651 /* Pods-WJLTestTwoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1811F8BDEB7B7687DBBA34FAC24D535 /* Pods-WJLTestTwoSDK_Example-dummy.m */; };
 		87EEDAD5BC07B76E1A1522F5E6BA3A47 /* Pods-WJLTestTwoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0242FB3BA015D1D7720FCAB067D9C10 /* Pods-WJLTestTwoSDK_Tests-dummy.m */; };
 		A36031E3F643E24946E61653BE7BF39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -43,10 +43,10 @@
 		15926F9DB737EE859438451FD6695F4B /* Pods-WJLTestTwoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJLTestTwoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		17B7476C1C897AB1B678BEECAA0F4F21 /* Pods-WJLTestTwoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJLTestTwoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		27EADBF3F7D6A51CE95C0B126425AD58 /* Pods-WJLTestTwoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJLTestTwoSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		2B73673452EBAB319EA8292B4F50137C /* WJLPubTestFirstOBJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLPubTestFirstOBJ.h; path = WJLTestTwoSDK/Classes/Model/WJLPubTestFirstOBJ.h; sourceTree = "<group>"; };
 		2C638DF0F3C94E2AA6EA892FB93DDFE8 /* WJLTestTwoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLTestTwoSDK-dummy.m"; sourceTree = "<group>"; };
 		3AB16D525547F70B63C390458D19698D /* Pods-WJLTestTwoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJLTestTwoSDK_Example.modulemap"; sourceTree = "<group>"; };
-		4B6E2466B51C73A49BEC49B1DEBCED46 /* WJLPubTestFirstOBJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLPubTestFirstOBJ.m; path = WJLTestTwoSDK/Classes/Model/WJLPubTestFirstOBJ.m; sourceTree = "<group>"; };
+		3F7B0997295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WJLPubTestFirstOBJ.h; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.h; sourceTree = "<group>"; };
+		3F7B0998295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WJLPubTestFirstOBJ.m; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.m; sourceTree = "<group>"; };
 		4F7518DDAE8E0016BA7BBCC51D829EA2 /* Pods-WJLTestTwoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJLTestTwoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		623127F70AD62CF0EE20D93B3C0ABA07 /* WJLTestTwoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJLTestTwoSDK.modulemap; sourceTree = "<group>"; };
 		7118E579124A2AEAEC46EDDC6D028328 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -217,8 +217,8 @@
 		FF68817DFA046FE648118C5B462E998F /* WJLTestTwoSDK */ = {
 			isa = PBXGroup;
 			children = (
-				2B73673452EBAB319EA8292B4F50137C /* WJLPubTestFirstOBJ.h */,
-				4B6E2466B51C73A49BEC49B1DEBCED46 /* WJLPubTestFirstOBJ.m */,
+				3F7B0997295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.h */,
+				3F7B0998295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.m */,
 				158D8799EF256FC37D5B3670ADF7D3F0 /* Pod */,
 				CA658FAC6A51B74B7639B8DC1111B078 /* Support Files */,
 			);
@@ -233,7 +233,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0C32040486BCE5A349011DAF64756D /* WJLPubTestFirstOBJ.h in Headers */,
+				3F7B0999295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.h in Headers */,
 				3685A449BC3E1EFF10711FAA71DB7A03 /* WJLTestTwoSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59399A44E699485B6DBDFFC304F38586 /* WJLPubTestFirstOBJ.m in Sources */,
+				3F7B099A295ABDBC0048C9D1 /* WJLPubTestFirstOBJ.m in Sources */,
 				142FE30C6BAC10805BDC05665244ECB1 /* WJLTestTwoSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
