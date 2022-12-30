@@ -7,31 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D675DE655414C54FD2BE43CC4B5F1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1B7F2D1A23A83DA14B2E11F19C30A2C1 /* WJLTestTwoSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9AA346839C84F258A0C36D419F4C29A /* WJLTestTwoSDK.bundle */; };
 		2F1784612F9C6BF2823D4E08A244A173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		36CBCFFC31864F1D9C651E541B1FD59D /* WJLSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A366D265A2DE1096FA7AA385EEEC3 /* WJLSourceManager.m */; };
-		3C756DFE140975D2A7A73704E85DE888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3D3873804D9F8DE4335BD44D82F389C7 /* WJLTestTwoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B5D6A5F379405F0C6AAF8B0F321A0 /* WJLTestTwoSDK-dummy.m */; };
-		3F153013295EECBC0093B92C /* TwoSDKImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F153012295EECBC0093B92C /* TwoSDKImages.xcassets */; };
-		55DCA17DCC18BD01CD3AB0EDDC3A46F3 /* WJLTestTwoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7460BD0CBDBB394FB0D5E85A87176BCC /* WJLTestTwoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363B8B5C852F593D66442351BF029F7D /* WJLSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB27D03A180DE782DD8DED5EED8634 /* WJLSourceManager.m */; };
+		499966A404340470F3E71149602BF1FF /* WJLTestTwoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 805D5F4AF927ACB4331D8AD5A128A907 /* WJLTestTwoSDK-dummy.m */; };
+		628935E75F4C35874089531C11F0FF36 /* WJLPubTestFirstOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6367480EB809203FDD1EB17CD856F1 /* WJLPubTestFirstOBJ.m */; };
 		62EDDFA014A559D3ABAB1E5967F9353C /* Pods-WJLTestTwoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7518DDAE8E0016BA7BBCC51D829EA2 /* Pods-WJLTestTwoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		693EE411063DB05CEF90BE81C3E3F464 /* TwoSDKImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AB53E97099FE7C6E52C77750CFF05E /* TwoSDKImages.xcassets */; };
 		79AA02A3B585C545D2C25AB356258DE3 /* Pods-WJLTestTwoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB66C459D24D2DE5774AA013198645DC /* Pods-WJLTestTwoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EF581243DE89598A1A8A072D2309651 /* Pods-WJLTestTwoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1811F8BDEB7B7687DBBA34FAC24D535 /* Pods-WJLTestTwoSDK_Example-dummy.m */; };
 		87EEDAD5BC07B76E1A1522F5E6BA3A47 /* Pods-WJLTestTwoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0242FB3BA015D1D7720FCAB067D9C10 /* Pods-WJLTestTwoSDK_Tests-dummy.m */; };
-		9AFC2AB6A816C7FDD1A3285E4F2AAF4A /* WJLPubTestFirstOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 939F2F19335F2585E05604C5F2DB7E66 /* WJLPubTestFirstOBJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA2063DF9B438CCFE695E7FCF1437A45 /* WJLPubTestFirstOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E078A79D1318880FBCF9648CA6905D /* WJLPubTestFirstOBJ.m */; };
+		9833B1B396CCDCE3E2B9D93E901035F1 /* WJLTestTwoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4144D636E5326D6858B1E3FAAF29FEB5 /* WJLTestTwoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5D2555FF57610F373A28E2A35316BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F384A31B347D452F8467433E89571F80 /* WJLSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FE89428472EDF8EFDD2AFD78ED772FEF /* WJLSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57DECB68E0569ECA12E6713E8014A1F /* WJLSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 065314451ED4930259999B9D62219FB4 /* WJLSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F268891D8C5DC8B50BCEAB797379DC6F /* WJLPubTestFirstOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3B063E90B02C58C08E9A97CCE19E51 /* WJLPubTestFirstOBJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		440E189D6CA61426899ADF5347E58A23 /* PBXContainerItemProxy */ = {
+		17B76F4955D394694F4F15BF4D9141C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C86A8B1BE9D0DFDF7613A61BD70F557F;
 			remoteInfo = "Pods-WJLTestTwoSDK_Example";
 		};
-		B7BB07AAD74B9990CE90DDE58C5C138D /* PBXContainerItemProxy */ = {
+		3876BBC932C7CD1CDF4791DF7BA536F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F045DDB8302F862F802197A53A1C88;
+			remoteInfo = "WJLTestTwoSDK-WJLTestTwoSDK";
+		};
+		F8D1D39482BC752D0164DDC6CC8505CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,54 +49,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065314451ED4930259999B9D62219FB4 /* WJLSourceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLSourceManager.h; path = WJLTestTwoSDK/Classes/WJLSourceManager.h; sourceTree = "<group>"; };
+		08D85C39A57AC7429F409FAF55698E19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		11315B348CF76C8F8059A8ED5802B8EF /* Pods-WJLTestTwoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJLTestTwoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		15926F9DB737EE859438451FD6695F4B /* Pods-WJLTestTwoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJLTestTwoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		17B7476C1C897AB1B678BEECAA0F4F21 /* Pods-WJLTestTwoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJLTestTwoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		206F5E837F71557BE0757AB5907F383A /* WJLTestTwoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WJLTestTwoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		260245C1F92A2BF806B5EC880D692222 /* WJLTestTwoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLTestTwoSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1B3B063E90B02C58C08E9A97CCE19E51 /* WJLPubTestFirstOBJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLPubTestFirstOBJ.h; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.h; sourceTree = "<group>"; };
 		27EADBF3F7D6A51CE95C0B126425AD58 /* Pods-WJLTestTwoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJLTestTwoSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		39AB53E97099FE7C6E52C77750CFF05E /* TwoSDKImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TwoSDKImages.xcassets; path = WJLTestTwoSDK/Assets/TwoSDKImages.xcassets; sourceTree = "<group>"; };
 		3AB16D525547F70B63C390458D19698D /* Pods-WJLTestTwoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJLTestTwoSDK_Example.modulemap"; sourceTree = "<group>"; };
-		3AB65CA13161A69A6F041783DCC91A96 /* WJLTestTwoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJLTestTwoSDK.modulemap; sourceTree = "<group>"; };
-		3F153012295EECBC0093B92C /* TwoSDKImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = TwoSDKImages.xcassets; path = WJLTestTwoSDK/Assets/TwoSDKImages.xcassets; sourceTree = "<group>"; };
-		434A5518A1663E9674826BE3C682CBF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4144D636E5326D6858B1E3FAAF29FEB5 /* WJLTestTwoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLTestTwoSDK-umbrella.h"; sourceTree = "<group>"; };
 		4F7518DDAE8E0016BA7BBCC51D829EA2 /* Pods-WJLTestTwoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJLTestTwoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5FA283CEF30AB230AB014ACBD85B1EB7 /* WJLTestTwoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLTestTwoSDK.release.xcconfig; sourceTree = "<group>"; };
-		705B5D6A5F379405F0C6AAF8B0F321A0 /* WJLTestTwoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLTestTwoSDK-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7460BD0CBDBB394FB0D5E85A87176BCC /* WJLTestTwoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLTestTwoSDK-umbrella.h"; sourceTree = "<group>"; };
 		789CA285330C2ABCA085ABB666A57772 /* Pods-WJLTestTwoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJLTestTwoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F99F297EE64EEC669075A92979A18EB /* WJLTestTwoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WJLTestTwoSDK-Info.plist"; sourceTree = "<group>"; };
+		805B739FD8260CE1173CD208A3BF8CD7 /* WJLTestTwoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJLTestTwoSDK.modulemap; sourceTree = "<group>"; };
+		805D5F4AF927ACB4331D8AD5A128A907 /* WJLTestTwoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLTestTwoSDK-dummy.m"; sourceTree = "<group>"; };
+		88B4719DD7F7336FAF0B84527F397E7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		893F8311D6B02FCC387237FC56D31627 /* WJLTestTwoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WJLTestTwoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8AB11E4C8177D8E2016A116AF5AF8E46 /* Pods-WJLTestTwoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJLTestTwoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8B9A366D265A2DE1096FA7AA385EEEC3 /* WJLSourceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLSourceManager.m; path = WJLTestTwoSDK/Classes/WJLSourceManager.m; sourceTree = "<group>"; };
+		8E1D95B80C3A48D9630796D4B29B8825 /* WJLTestTwoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLTestTwoSDK-prefix.pch"; sourceTree = "<group>"; };
 		8E9C5F41EC9E9CDE203B0A91158A0555 /* Pods-WJLTestTwoSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WJLTestTwoSDK_Tests"; path = Pods_WJLTestTwoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93467383EAC9026B8F5BC2355354C2FD /* WJLTestTwoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLTestTwoSDK-prefix.pch"; sourceTree = "<group>"; };
-		939F2F19335F2585E05604C5F2DB7E66 /* WJLPubTestFirstOBJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLPubTestFirstOBJ.h; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.h; sourceTree = "<group>"; };
+		9670E1284947C089984B85BF18BACD00 /* WJLTestTwoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLTestTwoSDK.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6BC01B60ED1231F2BD717E1248E0EBA /* Pods-WJLTestTwoSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJLTestTwoSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		AB66C459D24D2DE5774AA013198645DC /* Pods-WJLTestTwoSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJLTestTwoSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		B1E078A79D1318880FBCF9648CA6905D /* WJLPubTestFirstOBJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLPubTestFirstOBJ.m; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.m; sourceTree = "<group>"; };
+		B56BF12569AB4DB3244316E678F3A286 /* WJLTestTwoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLTestTwoSDK.release.xcconfig; sourceTree = "<group>"; };
 		B87730CD25DE94C6F8497EB1564C8BA3 /* WJLTestTwoSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJLTestTwoSDK; path = WJLTestTwoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B988EE477513B8C66522276E1917938B /* Pods-WJLTestTwoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJLTestTwoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B9AA346839C84F258A0C36D419F4C29A /* WJLTestTwoSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJLTestTwoSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F0AD2EE8A2D12F6E21784867D9FD05 /* Pods-WJLTestTwoSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WJLTestTwoSDK_Example"; path = Pods_WJLTestTwoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1811F8BDEB7B7687DBBA34FAC24D535 /* Pods-WJLTestTwoSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJLTestTwoSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		D2692326E0D6DE2AC7D76ABBF9D424AA /* WJLTestTwoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WJLTestTwoSDK-Info.plist"; sourceTree = "<group>"; };
 		D33BC25D3C73DDDE28A628EE6A2DCA47 /* Pods-WJLTestTwoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJLTestTwoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D43822A23A246645A7A0572DC00FEFAD /* Pods-WJLTestTwoSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJLTestTwoSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		D505700F2B539F028A4EE4660EECAB9A /* Pods-WJLTestTwoSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJLTestTwoSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA6367480EB809203FDD1EB17CD856F1 /* WJLPubTestFirstOBJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLPubTestFirstOBJ.m; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.m; sourceTree = "<group>"; };
+		DACB27D03A180DE782DD8DED5EED8634 /* WJLSourceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLSourceManager.m; path = WJLTestTwoSDK/Classes/WJLSourceManager.m; sourceTree = "<group>"; };
 		DF1810ABC2D21995BB225E13BF644E9A /* Pods-WJLTestTwoSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJLTestTwoSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0242FB3BA015D1D7720FCAB067D9C10 /* Pods-WJLTestTwoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJLTestTwoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		E7B57DBE1146D4C8C501FFAAAB678472 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FE89428472EDF8EFDD2AFD78ED772FEF /* WJLSourceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLSourceManager.h; path = WJLTestTwoSDK/Classes/WJLSourceManager.h; sourceTree = "<group>"; };
+		E7EA8A08C60A49C15DA0138D3E79C933 /* ResourceBundle-WJLTestTwoSDK-WJLTestTwoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WJLTestTwoSDK-WJLTestTwoSDK-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		199308068ADA36C53D0B38094B801637 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C756DFE140975D2A7A73704E85DE888 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		411832EEC6A28D3BDD8F3AE04126B93C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,39 +107,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D414DD814D4B173EEC75AF327E7ADD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D675DE655414C54FD2BE43CC4B5F1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0FB12D0AFCA2441218B030BC0C3ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		172B0C4A3D3A3018221A8FE2974C795B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3AB65CA13161A69A6F041783DCC91A96 /* WJLTestTwoSDK.modulemap */,
-				705B5D6A5F379405F0C6AAF8B0F321A0 /* WJLTestTwoSDK-dummy.m */,
-				D2692326E0D6DE2AC7D76ABBF9D424AA /* WJLTestTwoSDK-Info.plist */,
-				93467383EAC9026B8F5BC2355354C2FD /* WJLTestTwoSDK-prefix.pch */,
-				7460BD0CBDBB394FB0D5E85A87176BCC /* WJLTestTwoSDK-umbrella.h */,
-				260245C1F92A2BF806B5EC880D692222 /* WJLTestTwoSDK.debug.xcconfig */,
-				5FA283CEF30AB230AB014ACBD85B1EB7 /* WJLTestTwoSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WJLTestTwoSDK";
-			sourceTree = "<group>";
-		};
-		206DAD96D7B4FEC4799892424884032D /* WJLTestTwoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				939F2F19335F2585E05604C5F2DB7E66 /* WJLPubTestFirstOBJ.h */,
-				B1E078A79D1318880FBCF9648CA6905D /* WJLPubTestFirstOBJ.m */,
-				FE89428472EDF8EFDD2AFD78ED772FEF /* WJLSourceManager.h */,
-				8B9A366D265A2DE1096FA7AA385EEEC3 /* WJLSourceManager.m */,
-				3F153012295EECBC0093B92C /* TwoSDKImages.xcassets */,
-				6781C74953136A68EEBA971361FECFFD /* Pod */,
-				172B0C4A3D3A3018221A8FE2974C795B /* Support Files */,
-			);
-			name = WJLTestTwoSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3DD42E03F6BD96932834887185A49A16 /* Pods-WJLTestTwoSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,24 +150,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64FC1651FD61B428113A081CFEC63509 /* Products */ = {
+		A0A015442FCE9D2EB10D78AFA8F961A1 /* WJLTestTwoSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C0F0AD2EE8A2D12F6E21784867D9FD05 /* Pods-WJLTestTwoSDK_Example */,
-				8E9C5F41EC9E9CDE203B0A91158A0555 /* Pods-WJLTestTwoSDK_Tests */,
-				B87730CD25DE94C6F8497EB1564C8BA3 /* WJLTestTwoSDK */,
+				39AB53E97099FE7C6E52C77750CFF05E /* TwoSDKImages.xcassets */,
+				1B3B063E90B02C58C08E9A97CCE19E51 /* WJLPubTestFirstOBJ.h */,
+				DA6367480EB809203FDD1EB17CD856F1 /* WJLPubTestFirstOBJ.m */,
+				065314451ED4930259999B9D62219FB4 /* WJLSourceManager.h */,
+				DACB27D03A180DE782DD8DED5EED8634 /* WJLSourceManager.m */,
+				C961FAF1F70FCDB5E8594CEB5F880273 /* Pod */,
+				DB30560A97DFD7194E95657FBA02A704 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6781C74953136A68EEBA971361FECFFD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E7B57DBE1146D4C8C501FFAAAB678472 /* LICENSE */,
-				434A5518A1663E9674826BE3C682CBF3 /* README.md */,
-				206F5E837F71557BE0757AB5907F383A /* WJLTestTwoSDK.podspec */,
-			);
-			name = Pod;
+			name = WJLTestTwoSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A31AED00C285BB650F739F1F7ADD754D /* Pods-WJLTestTwoSDK_Tests */ = {
@@ -199,12 +181,14 @@
 			path = "Target Support Files/Pods-WJLTestTwoSDK_Tests";
 			sourceTree = "<group>";
 		};
-		AD91BD5A4288002E077D3CD21687C39A /* Development Pods */ = {
+		C961FAF1F70FCDB5E8594CEB5F880273 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				206DAD96D7B4FEC4799892424884032D /* WJLTestTwoSDK */,
+				08D85C39A57AC7429F409FAF55698E19 /* LICENSE */,
+				88B4719DD7F7336FAF0B84527F397E7E /* README.md */,
+				893F8311D6B02FCC387237FC56D31627 /* WJLTestTwoSDK.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CE8BC0BDE90FCBE800D0BD220AC4FB02 /* Targets Support Files */ = {
@@ -220,9 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AD91BD5A4288002E077D3CD21687C39A /* Development Pods */,
+				F47FA4B5FD82DE079CF91E09CF75617E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				64FC1651FD61B428113A081CFEC63509 /* Products */,
+				D4DD198180B6AD7D48936F456D97EBD5 /* Products */,
 				CE8BC0BDE90FCBE800D0BD220AC4FB02 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -233,6 +217,41 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4DD198180B6AD7D48936F456D97EBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F0AD2EE8A2D12F6E21784867D9FD05 /* Pods-WJLTestTwoSDK_Example */,
+				8E9C5F41EC9E9CDE203B0A91158A0555 /* Pods-WJLTestTwoSDK_Tests */,
+				B87730CD25DE94C6F8497EB1564C8BA3 /* WJLTestTwoSDK */,
+				B9AA346839C84F258A0C36D419F4C29A /* WJLTestTwoSDK.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB30560A97DFD7194E95657FBA02A704 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA8A08C60A49C15DA0138D3E79C933 /* ResourceBundle-WJLTestTwoSDK-WJLTestTwoSDK-Info.plist */,
+				805B739FD8260CE1173CD208A3BF8CD7 /* WJLTestTwoSDK.modulemap */,
+				805D5F4AF927ACB4331D8AD5A128A907 /* WJLTestTwoSDK-dummy.m */,
+				7F99F297EE64EEC669075A92979A18EB /* WJLTestTwoSDK-Info.plist */,
+				8E1D95B80C3A48D9630796D4B29B8825 /* WJLTestTwoSDK-prefix.pch */,
+				4144D636E5326D6858B1E3FAAF29FEB5 /* WJLTestTwoSDK-umbrella.h */,
+				9670E1284947C089984B85BF18BACD00 /* WJLTestTwoSDK.debug.xcconfig */,
+				B56BF12569AB4DB3244316E678F3A286 /* WJLTestTwoSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJLTestTwoSDK";
+			sourceTree = "<group>";
+		};
+		F47FA4B5FD82DE079CF91E09CF75617E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0A015442FCE9D2EB10D78AFA8F961A1 /* WJLTestTwoSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,13 +265,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A67FB0D08ADB55C58A30301D1449FE67 /* Headers */ = {
+		B684B0A8C2F2F84BFF126CFE46F3D239 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFC2AB6A816C7FDD1A3285E4F2AAF4A /* WJLPubTestFirstOBJ.h in Headers */,
-				F384A31B347D452F8467433E89571F80 /* WJLSourceManager.h in Headers */,
-				55DCA17DCC18BD01CD3AB0EDDC3A46F3 /* WJLTestTwoSDK-umbrella.h in Headers */,
+				F268891D8C5DC8B50BCEAB797379DC6F /* WJLPubTestFirstOBJ.h in Headers */,
+				D57DECB68E0569ECA12E6713E8014A1F /* WJLSourceManager.h in Headers */,
+				9833B1B396CCDCE3E2B9D93E901035F1 /* WJLTestTwoSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,16 +288,17 @@
 /* Begin PBXNativeTarget section */
 		5A4EC7EFD315FC52BA9E3BDEDE95638C /* WJLTestTwoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4461A23CB9AAEB7B20E60DC007C437AF /* Build configuration list for PBXNativeTarget "WJLTestTwoSDK" */;
+			buildConfigurationList = 1FF29972A4316E5967ECFD813B0887D2 /* Build configuration list for PBXNativeTarget "WJLTestTwoSDK" */;
 			buildPhases = (
-				A67FB0D08ADB55C58A30301D1449FE67 /* Headers */,
-				D1D602302C9A42809ACDD4BE360F2C3B /* Sources */,
-				199308068ADA36C53D0B38094B801637 /* Frameworks */,
-				B04B79B30EB68B85EEB1FCFD5379F478 /* Resources */,
+				B684B0A8C2F2F84BFF126CFE46F3D239 /* Headers */,
+				A84203B64014B5F4C3D466715E1305A4 /* Sources */,
+				9D414DD814D4B173EEC75AF327E7ADD9 /* Frameworks */,
+				321DEC44A25083E87212C9A3E31A9A79 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				80AD7EB51A378BA461002A0AC3EF065C /* PBXTargetDependency */,
 			);
 			name = WJLTestTwoSDK;
 			productName = WJLTestTwoSDK;
@@ -297,12 +317,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				0026B3E54B1F8DD40DD879952E9F7936 /* PBXTargetDependency */,
+				011A1BC48C0366E88B4266F02FCC6032 /* PBXTargetDependency */,
 			);
 			name = "Pods-WJLTestTwoSDK_Tests";
 			productName = Pods_WJLTestTwoSDK_Tests;
 			productReference = 8E9C5F41EC9E9CDE203B0A91158A0555 /* Pods-WJLTestTwoSDK_Tests */;
 			productType = "com.apple.product-type.framework";
+		};
+		B1F045DDB8302F862F802197A53A1C88 /* WJLTestTwoSDK-WJLTestTwoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F37A8751D5A07D9AD1BDA0956E35C5C /* Build configuration list for PBXNativeTarget "WJLTestTwoSDK-WJLTestTwoSDK" */;
+			buildPhases = (
+				7944C32249E9AB49F18EBC4F2BF20F82 /* Sources */,
+				BC0FB12D0AFCA2441218B030BC0C3ADC /* Frameworks */,
+				8B99ECF1297079CDDC1D61BB2CA59FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJLTestTwoSDK-WJLTestTwoSDK";
+			productName = WJLTestTwoSDK;
+			productReference = B9AA346839C84F258A0C36D419F4C29A /* WJLTestTwoSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		C86A8B1BE9D0DFDF7613A61BD70F557F /* Pods-WJLTestTwoSDK_Example */ = {
 			isa = PBXNativeTarget;
@@ -316,7 +353,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6F574A6CA9AE0D8D0F38B7120FDDAB07 /* PBXTargetDependency */,
+				89067DE2C5BC4FAA9A0EA8ABF0518644 /* PBXTargetDependency */,
 			);
 			name = "Pods-WJLTestTwoSDK_Example";
 			productName = Pods_WJLTestTwoSDK_Example;
@@ -331,6 +368,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B1F045DDB8302F862F802197A53A1C88 = {
+						DevelopmentTeam = ZT38DY35DB;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,13 +383,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 64FC1651FD61B428113A081CFEC63509 /* Products */;
+			productRefGroup = D4DD198180B6AD7D48936F456D97EBD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C86A8B1BE9D0DFDF7613A61BD70F557F /* Pods-WJLTestTwoSDK_Example */,
 				5B4599A11C55C20D597F87527065ABA7 /* Pods-WJLTestTwoSDK_Tests */,
 				5A4EC7EFD315FC52BA9E3BDEDE95638C /* WJLTestTwoSDK */,
+				B1F045DDB8302F862F802197A53A1C88 /* WJLTestTwoSDK-WJLTestTwoSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -360,11 +403,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B04B79B30EB68B85EEB1FCFD5379F478 /* Resources */ = {
+		321DEC44A25083E87212C9A3E31A9A79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F153013295EECBC0093B92C /* TwoSDKImages.xcassets in Resources */,
+				1B7F2D1A23A83DA14B2E11F19C30A2C1 /* WJLTestTwoSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B99ECF1297079CDDC1D61BB2CA59FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693EE411063DB05CEF90BE81C3E3F464 /* TwoSDKImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +437,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7944C32249E9AB49F18EBC4F2BF20F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		977590A0D887157DF8626DE0A463638F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,34 +452,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1D602302C9A42809ACDD4BE360F2C3B /* Sources */ = {
+		A84203B64014B5F4C3D466715E1305A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2063DF9B438CCFE695E7FCF1437A45 /* WJLPubTestFirstOBJ.m in Sources */,
-				36CBCFFC31864F1D9C651E541B1FD59D /* WJLSourceManager.m in Sources */,
-				3D3873804D9F8DE4335BD44D82F389C7 /* WJLTestTwoSDK-dummy.m in Sources */,
+				628935E75F4C35874089531C11F0FF36 /* WJLPubTestFirstOBJ.m in Sources */,
+				363B8B5C852F593D66442351BF029F7D /* WJLSourceManager.m in Sources */,
+				499966A404340470F3E71149602BF1FF /* WJLTestTwoSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0026B3E54B1F8DD40DD879952E9F7936 /* PBXTargetDependency */ = {
+		011A1BC48C0366E88B4266F02FCC6032 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WJLTestTwoSDK_Example";
 			target = C86A8B1BE9D0DFDF7613A61BD70F557F /* Pods-WJLTestTwoSDK_Example */;
-			targetProxy = 440E189D6CA61426899ADF5347E58A23 /* PBXContainerItemProxy */;
+			targetProxy = 17B76F4955D394694F4F15BF4D9141C5 /* PBXContainerItemProxy */;
 		};
-		6F574A6CA9AE0D8D0F38B7120FDDAB07 /* PBXTargetDependency */ = {
+		80AD7EB51A378BA461002A0AC3EF065C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WJLTestTwoSDK-WJLTestTwoSDK";
+			target = B1F045DDB8302F862F802197A53A1C88 /* WJLTestTwoSDK-WJLTestTwoSDK */;
+			targetProxy = 3876BBC932C7CD1CDF4791DF7BA536F3 /* PBXContainerItemProxy */;
+		};
+		89067DE2C5BC4FAA9A0EA8ABF0518644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WJLTestTwoSDK;
 			target = 5A4EC7EFD315FC52BA9E3BDEDE95638C /* WJLTestTwoSDK */;
-			targetProxy = B7BB07AAD74B9990CE90DDE58C5C138D /* PBXContainerItemProxy */;
+			targetProxy = F8D1D39482BC752D0164DDC6CC8505CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D94923F6EEC5CA4BF304E282F295BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56BF12569AB4DB3244316E678F3A286 /* WJLTestTwoSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK.modulemap";
+				PRODUCT_MODULE_NAME = WJLTestTwoSDK;
+				PRODUCT_NAME = WJLTestTwoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		147F0D7420F4B8FD7596E348DB5D68EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AB11E4C8177D8E2016A116AF5AF8E46 /* Pods-WJLTestTwoSDK_Tests.debug.xcconfig */;
@@ -452,6 +548,71 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C0424EFA05D0AE7347B2F645C685DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56BF12569AB4DB3244316E678F3A286 /* WJLTestTwoSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WJLTestTwoSDK";
+				DEVELOPMENT_TEAM = ZT38DY35DB;
+				IBSC_MODULE = WJLTestTwoSDK;
+				INFOPLIST_FILE = "Target Support Files/WJLTestTwoSDK/ResourceBundle-WJLTestTwoSDK-WJLTestTwoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = WJLTestTwoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6343C3AD47535DD2F1CB3C5CCDB1BE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9670E1284947C089984B85BF18BACD00 /* WJLTestTwoSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK.modulemap";
+				PRODUCT_MODULE_NAME = WJLTestTwoSDK;
+				PRODUCT_NAME = WJLTestTwoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		680CFBCF8DDA9E9DD30437A061FCFEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9670E1284947C089984B85BF18BACD00 /* WJLTestTwoSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WJLTestTwoSDK";
+				DEVELOPMENT_TEAM = ZT38DY35DB;
+				IBSC_MODULE = WJLTestTwoSDK;
+				INFOPLIST_FILE = "Target Support Files/WJLTestTwoSDK/ResourceBundle-WJLTestTwoSDK-WJLTestTwoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = WJLTestTwoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -548,37 +709,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		80D9210B397AA5207B82ABDED537A76C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 260245C1F92A2BF806B5EC880D692222 /* WJLTestTwoSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK.modulemap";
-				PRODUCT_MODULE_NAME = WJLTestTwoSDK;
-				PRODUCT_NAME = WJLTestTwoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		86490806983734F10166673658330A04 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -714,46 +844,23 @@
 			};
 			name = Release;
 		};
-		FCBF62483A4C097C4035A36BFC43FDCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FA283CEF30AB230AB014ACBD85B1EB7 /* WJLTestTwoSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WJLTestTwoSDK/WJLTestTwoSDK.modulemap";
-				PRODUCT_MODULE_NAME = WJLTestTwoSDK;
-				PRODUCT_NAME = WJLTestTwoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4461A23CB9AAEB7B20E60DC007C437AF /* Build configuration list for PBXNativeTarget "WJLTestTwoSDK" */ = {
+		1FF29972A4316E5967ECFD813B0887D2 /* Build configuration list for PBXNativeTarget "WJLTestTwoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80D9210B397AA5207B82ABDED537A76C /* Debug */,
-				FCBF62483A4C097C4035A36BFC43FDCA /* Release */,
+				6343C3AD47535DD2F1CB3C5CCDB1BE67 /* Debug */,
+				0D94923F6EEC5CA4BF304E282F295BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F37A8751D5A07D9AD1BDA0956E35C5C /* Build configuration list for PBXNativeTarget "WJLTestTwoSDK-WJLTestTwoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680CFBCF8DDA9E9DD30437A061FCFEB3 /* Debug */,
+				5C0424EFA05D0AE7347B2F645C685DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

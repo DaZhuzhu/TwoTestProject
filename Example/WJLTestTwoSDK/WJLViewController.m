@@ -23,7 +23,7 @@
     
     UIImageView *imgV = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
     [self.view addSubview:imgV];
-    imgV.image = [UIImage imageNamed:@"017" inBundle:[WJLSourceManager twoSDKBundle] compatibleWithTraitCollection:nil];
+    imgV.image = [UIImage imageNamed:@"019" inBundle:[WJLSourceManager twoSDKBundle] compatibleWithTraitCollection:nil];
 }
 
 - (void)didReceiveMemoryWarning

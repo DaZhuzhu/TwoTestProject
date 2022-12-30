@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJLTestTwoSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'WJL 的组件'
 
 
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'WJLTestTwoSDK/Classes/**/*'
   
    s.resource_bundles = {
-     'WJLTestTwoSDK' => ['WJLTestTwoSDK/Assets/*.png']
+     'WJLTestTwoSDK' => ['WJLTestTwoSDK/Assets/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

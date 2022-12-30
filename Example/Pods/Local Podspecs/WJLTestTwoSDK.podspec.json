@@ -1,6 +1,6 @@
 {
   "name": "WJLTestTwoSDK",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "WJL 的组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/DaZhuzhu/TwoTestProject",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/DaZhuzhu/TwoTestProject.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "WJLTestTwoSDK/Classes/**/*"
+  "source_files": "WJLTestTwoSDK/Classes/**/*",
+  "resource_bundles": {
+    "WJLTestTwoSDK": [
+      "WJLTestTwoSDK/Assets/*"
+    ]
+  }
 }
