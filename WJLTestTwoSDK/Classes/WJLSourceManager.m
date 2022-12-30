@@ -11,7 +11,7 @@
 
 + (NSBundle *)twoSDKBundle {
     NSBundle *bundle = [NSBundle bundleForClass:[WJLSourceManager class]];
-    NSURL *url = [bundle URLForResource:@"TwoSDKImages" withExtension:@"bundle"];
+    NSURL *url = [bundle URLForResource:@"WJLTestTwoSDK" withExtension:@"bundle"];
     NSBundle *sourceBundle = [NSBundle bundleWithURL:url];
     return sourceBundle;
 }

@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2F1784612F9C6BF2823D4E08A244A173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		36CBCFFC31864F1D9C651E541B1FD59D /* WJLSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A366D265A2DE1096FA7AA385EEEC3 /* WJLSourceManager.m */; };
 		3C756DFE140975D2A7A73704E85DE888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3D3873804D9F8DE4335BD44D82F389C7 /* WJLTestTwoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B5D6A5F379405F0C6AAF8B0F321A0 /* WJLTestTwoSDK-dummy.m */; };
-		3F15300F295EEBBC0093B92C /* WJLSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15300E295EEBBC0093B92C /* WJLSourceManager.m */; };
-		3F153011295EEBD70093B92C /* TwoSDKImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F153010295EEBD70093B92C /* TwoSDKImages.xcassets */; };
+		3F153013295EECBC0093B92C /* TwoSDKImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F153012295EECBC0093B92C /* TwoSDKImages.xcassets */; };
 		55DCA17DCC18BD01CD3AB0EDDC3A46F3 /* WJLTestTwoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7460BD0CBDBB394FB0D5E85A87176BCC /* WJLTestTwoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62EDDFA014A559D3ABAB1E5967F9353C /* Pods-WJLTestTwoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7518DDAE8E0016BA7BBCC51D829EA2 /* Pods-WJLTestTwoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79AA02A3B585C545D2C25AB356258DE3 /* Pods-WJLTestTwoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB66C459D24D2DE5774AA013198645DC /* Pods-WJLTestTwoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,8 +49,7 @@
 		27EADBF3F7D6A51CE95C0B126425AD58 /* Pods-WJLTestTwoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJLTestTwoSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		3AB16D525547F70B63C390458D19698D /* Pods-WJLTestTwoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJLTestTwoSDK_Example.modulemap"; sourceTree = "<group>"; };
 		3AB65CA13161A69A6F041783DCC91A96 /* WJLTestTwoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJLTestTwoSDK.modulemap; sourceTree = "<group>"; };
-		3F15300E295EEBBC0093B92C /* WJLSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WJLSourceManager.m; path = WJLTestTwoSDK/Classes/WJLSourceManager.m; sourceTree = "<group>"; };
-		3F153010295EEBD70093B92C /* TwoSDKImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = TwoSDKImages.xcassets; path = WJLTestTwoSDK/Assets/TwoSDKImages.xcassets; sourceTree = "<group>"; };
+		3F153012295EECBC0093B92C /* TwoSDKImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = TwoSDKImages.xcassets; path = WJLTestTwoSDK/Assets/TwoSDKImages.xcassets; sourceTree = "<group>"; };
 		434A5518A1663E9674826BE3C682CBF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4F7518DDAE8E0016BA7BBCC51D829EA2 /* Pods-WJLTestTwoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJLTestTwoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5FA283CEF30AB230AB014ACBD85B1EB7 /* WJLTestTwoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLTestTwoSDK.release.xcconfig; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		7460BD0CBDBB394FB0D5E85A87176BCC /* WJLTestTwoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLTestTwoSDK-umbrella.h"; sourceTree = "<group>"; };
 		789CA285330C2ABCA085ABB666A57772 /* Pods-WJLTestTwoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJLTestTwoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8AB11E4C8177D8E2016A116AF5AF8E46 /* Pods-WJLTestTwoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJLTestTwoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B9A366D265A2DE1096FA7AA385EEEC3 /* WJLSourceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLSourceManager.m; path = WJLTestTwoSDK/Classes/WJLSourceManager.m; sourceTree = "<group>"; };
 		8E9C5F41EC9E9CDE203B0A91158A0555 /* Pods-WJLTestTwoSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WJLTestTwoSDK_Tests"; path = Pods_WJLTestTwoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93467383EAC9026B8F5BC2355354C2FD /* WJLTestTwoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLTestTwoSDK-prefix.pch"; sourceTree = "<group>"; };
 		939F2F19335F2585E05604C5F2DB7E66 /* WJLPubTestFirstOBJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLPubTestFirstOBJ.h; path = WJLTestTwoSDK/Classes/WJLPubTestFirstOBJ.h; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 				939F2F19335F2585E05604C5F2DB7E66 /* WJLPubTestFirstOBJ.h */,
 				B1E078A79D1318880FBCF9648CA6905D /* WJLPubTestFirstOBJ.m */,
 				FE89428472EDF8EFDD2AFD78ED772FEF /* WJLSourceManager.h */,
-				3F15300E295EEBBC0093B92C /* WJLSourceManager.m */,
-				3F153010295EEBD70093B92C /* TwoSDKImages.xcassets */,
+				8B9A366D265A2DE1096FA7AA385EEEC3 /* WJLSourceManager.m */,
+				3F153012295EECBC0093B92C /* TwoSDKImages.xcassets */,
 				6781C74953136A68EEBA971361FECFFD /* Pod */,
 				172B0C4A3D3A3018221A8FE2974C795B /* Support Files */,
 			);
@@ -364,7 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F153011295EEBD70093B92C /* TwoSDKImages.xcassets in Resources */,
+				3F153013295EECBC0093B92C /* TwoSDKImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2063DF9B438CCFE695E7FCF1437A45 /* WJLPubTestFirstOBJ.m in Sources */,
-				3F15300F295EEBBC0093B92C /* WJLSourceManager.m in Sources */,
+				36CBCFFC31864F1D9C651E541B1FD59D /* WJLSourceManager.m in Sources */,
 				3D3873804D9F8DE4335BD44D82F389C7 /* WJLTestTwoSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
