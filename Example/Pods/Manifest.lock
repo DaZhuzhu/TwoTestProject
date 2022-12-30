@@ -1,5 +1,5 @@
 PODS:
-  - WJLTestTwoSDK (0.1.0)
+  - WJLTestTwoSDK (0.1.1)
 
 DEPENDENCIES:
   - WJLTestTwoSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WJLTestTwoSDK: e973bcdb04f31b6ac1f0e6295d48bca587c63b71
+  WJLTestTwoSDK: dc290a49ded4d43ce1aea97741cc9d01e4588a3d
 
 PODFILE CHECKSUM: 35f62e05a6c5d7437f0e84e6b7ee6b31408549b9
 

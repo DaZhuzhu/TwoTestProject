@@ -11,6 +11,7 @@
 #endif
 
 #import "WJLPubTestFirstOBJ.h"
+#import "WJLSourceManager.h"
 
 FOUNDATION_EXPORT double WJLTestTwoSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char WJLTestTwoSDKVersionString[];
